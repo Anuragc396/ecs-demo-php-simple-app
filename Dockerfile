@@ -1,4 +1,4 @@
-FROM amazonlinux:2
+FROM amazon/amazon-ecs-sample
 
 # Install dependencies
 RUN yum install -y \
